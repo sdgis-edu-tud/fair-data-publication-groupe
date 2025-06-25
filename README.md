@@ -218,9 +218,10 @@ Number of quality of life variables: 6
 
 **QOL_CoveredStreamDistance**
 - Full name: Covered Stream Length
-- Description: Total length of covered/buried stream sections per grid tile
-- Type of variable: Continuous
-- Unit of measurement: Distance (meters)
+- Description: Total length of covered stream length per tile
+- Type of variable: Continuous (0-1 normalized)
+- Unit of measurement: Distance (meters), Normalized distance (0 = none, 1 = longest)
+- Calculation: Stream length normalized using a piecewise linear scale (0 for ≤140 m, 1 for ≥2500 m), rounded to 3 decimals
 
 ## 4.3 Climate Adaptation Metrics
 
