@@ -261,7 +261,7 @@ Number of climate adaptation variables: 5
 - Description: Count of trees within 10m buffer of streams
 - Type of variable: Ordinal (0-1)
 - Unit of measurement: Normalized tree count classes
-- Calculation: Tree counts classified (0-25=0.0, 26-50=0.25, 51-75=0.5, 76-100=0.75, >100=1.0; forest areas assigned 0.5)
+- Calculation: Tree counts classified (0-25=0.0, 26-50=0.25, 51-75=0.5, 76-100=0.75, >100=1.0)
 
 ## 4.4 Weighted Scores and Typology Analysis
 
@@ -294,7 +294,7 @@ Number of derived variables: 4
 - Description: Overall weighted composite score across all three themes
 - Type of variable: Continuous (0-1)
 - Unit of measurement: Normalized composite score
-- Calculation: Weighted combination of BIO_Weighted, QOL_Weighted, and CLI_Weighted scores
+- Calculation: Weighted combination of BIO_Weighted, QOL_Weighted, and CLI_Weighted scores (1/3 for all)
 
 Total number of variables: 21 (1 ID + 5 biodiversity + 6 quality of life + 5 climate adaptation + 4 composite scores)
 Total number of grid cells: 698
@@ -309,7 +309,7 @@ This dataset is licensed under Creative Commons Attribution-ShareAlike 4.0 Inter
 To be updated upon publication
 
 ### 5.2.2 Links to other publicly accessible locations of the data: 
-To be determined
+n/a
 
 ### 5.2.3 Links/relationships to ancillary data sets: 
 - Dresden Municipality WFS Endpoints (various environmental and urban planning datasets)
@@ -323,7 +323,7 @@ To be determined
 Yes - Primary sources include Dresden municipality open data via WFS endpoints and Copernicus satellite imagery. All processing and analysis conducted by the research team.
 
 ## 5.3 Recommended citation for this dataset:
-Schlosser, D., Bastiaansen, J., Chandrasekaran, A., & van Dijk, T. (2025). ReBioClim Dresden: Spatial Analysis Dataset for Urban Stream Restoration Prioritization. Delft University of Technology. [DOI to be assigned]
+Schlosser, D., Bastiaansen, J., Chandrasekaran, A., & van Dijk, T. (2025). ReBioClim Dresden: Spatial Analysis Dataset for Urban Stream Restoration Prioritization. Delft University of Technology. 10.4121/3035126d-ee51-4dbd-a187-5f6b0be85e9f
 
 ---
 
