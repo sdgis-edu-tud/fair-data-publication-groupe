@@ -316,7 +316,7 @@ To be determined
 - ReBioClim project data repository: https://www.interreg-central.eu/projects/rebioclim/
 
 ### 5.2.4 Links to publicly accessible scripts for analysis of the dataset:
-- [Link title](link url)
+- ([GitHub GroupE repository](https://github.com/sdgis-edu-tud/report-asa2025-groupe))
 
 ### 5.2.5 Was data derived from another source?
 Yes - Primary sources include Dresden municipality open data via WFS endpoints and Copernicus satellite imagery. All processing and analysis conducted by the research team.
